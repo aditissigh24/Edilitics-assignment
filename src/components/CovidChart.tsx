@@ -125,10 +125,10 @@ const CovidChart: React.FC<Props> = ({ data }) => {
         d3.select(event.currentTarget) // Restore original color on hover out
         .transition()
         .duration(200)
-        .attr("fill", d => data.country === selectedCountry ? "#EC8305" : (isDarkMode ? "#6B7280" : "#93C5FD"));
+        .attr("fill",  data.country === selectedCountry ? "#EC8305" : (isDarkMode ? "#6B7280" : "#93C5FD"));
       tooltip.style("visibility", "hidden");
     })
-    .on("click", (event, d) => {
+    .on("click", (_, d) => {
       const data = d as CovidData; // Explicit type assertion
       setSelectedCountry((prev) => (prev === data.country ? null : data.country));
     });

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import CovidChart from './components/CovidChart';
 import { sampleCovidData } from './data/sampleData';
 
