@@ -33,6 +33,10 @@ An interactive Covid-19 data visualization dashboard built using React, TypeScri
 - Run `npm install` if dependencies are missing.
 - If TypeScript errors occur, check `tsconfig.json`.
 
+## 📌 Deployment
+The project is deployed on vercel. You can access it here: [https://ed-ass.vercel.app/]
+![Homepage Screenshot](https://raw.githubusercontent.com/aditissigh24/Edilitics-assignment/main/src/assets/chart.png)
+
 ## License
 
 MIT License
