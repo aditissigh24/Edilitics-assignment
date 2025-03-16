@@ -25,7 +25,7 @@ function App() {
 
       {/* Footer Attribution */}
       <footer className="text-center text-sm text-gray-500 dark:text-gray-400 mt-8">
-        <p>Data visualization powered by D3.js</p>
+        <p>Data visualization using D3.js</p>
       </footer>
     </div>
   </div>
